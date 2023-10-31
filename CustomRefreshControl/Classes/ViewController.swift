@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     /// Variable Declaration
     var refreshView: RefreshView!
     
-    var tableViewRefreshControl: UIRefreshControl = {
+    lazy var tableViewRefreshControl: UIRefreshControl = {
         let refreshControl = UIRefreshControl()
         refreshControl.backgroundColor = .clear
         refreshControl.tintColor = .clear
